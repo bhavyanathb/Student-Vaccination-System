@@ -10,3 +10,6 @@ The project is a web application for student vaccination in which the student ca
   * SQL
 * Back-End
   * PHP
+# Process Flow
+* Relational Database Schema
+![](https://github.com/bhavyanathb/Student-Vaccination-System/blob/main/Images/schema.png)
