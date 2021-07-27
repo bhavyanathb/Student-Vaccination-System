@@ -1,0 +1,405 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:url(5.jpg);
+    background-size: cover;
+    /* background-position:center ;
+    font-family: sans-serif; */
+}
+.a[class="register"]:hover,a[class="profile"]:hover{
+    color: #ffd700;
+}
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+h1,h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: #ffd700;
+}
+label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #00ffff;
+}
+/* .loginbox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+} */
+.loginbox input{
+    width: 80%;
+    background-position:center;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 25px;
+    color: #fff;
+    font-size: 12px;
+}
+.loginbox button[type="submit"]{
+    border: none;   
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox button[type="submit"]:hover{
+    cursor:pointer;
+    background: #39e7;
+    color: #000;
+}
+.loginbox p[class="register"]{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+.loginbox a[class="register"],p[class="profile"],a[class="profile"]{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ff8c00;
+}
+.table-box{
+    width: 500px;
+    height: 300px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.table-box th{
+    color: #ff8c00;;
+    margin: 0;
+    padding: 0 0 20px 10px;
+    text-align: center;
+}
+.table-box td,tr{
+    color: #fff;
+    margin: 0;
+    padding: 0 0 20px 30px;
+    text-align: center;
+}
+.schedulebox {
+    width: 320px;
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+/* .schedulebox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+} */
+
+.schedulebox button[type="submit"]{
+    border: none;   
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+}
+.schedulebox button[type="submit"]:hover{
+    cursor:pointer;
+    background: #39e7;
+    color: #000;
+}
+.statusbox {
+    width: 320px;
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.reschedulebox {
+    width: 320px;
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+/* .reschedulebox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+} */
+.reschedulebox button[type="submit"]{
+    border: none;   
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+}
+.reschedulebox button[type="submit"]:hover{
+    cursor:pointer;
+    background: #39e7;
+    color: #000;
+}
+.reschedulebox1 {
+    width: 320px;
+    height: 600px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+/* .reschedulebox1 label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+} */
+
+.reschedulebox1 button[type="submit"]{
+    border: none;   
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+}
+.reschedulebox1 button[type="submit"]:hover{
+    cursor:pointer;
+    background: #39e7;
+    color: #000;
+}
+.signupbox {
+    width: 320px;
+    height: 700px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.signupbox h1,h2{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+}
+/* .signupbox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+} */
+.signupbox input{
+    width: 80%;
+    background-position:center;
+    margin-bottom: 6px;
+}
+.signupbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+.signupbox button[type="submit"]{
+    border: none;   
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+}
+.signupbox button[type="submit"]:hover{
+    cursor:pointer;
+    background: #39e7;
+    color: #000;
+}
+.signupbox p[class="register"]{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+.signupbox a[class="register"],p[class="profile"],a[class="profile"]{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ff8c00;
+}
+.valoginbox {
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+.valoginbox h1,h2{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+}
+/* .valoginbox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+} */
+.valoginbox input{
+    width: 80%;
+    background-position:center;
+    margin-bottom: 6px;
+}
+.valoginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+.valoginbox button[type="submit"]{
+    border: none;   
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+}
+.valoginbox button[type="submit"]:hover{
+    cursor:pointer;
+    background: #39e7;
+    color: #000;
+}
+.valoginbox p[class="register"]{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+.valoginbox a[class="register"],p[class="profile"],a[class="profile"]{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ff8c00;
+}
+.topnav a{
+    padding: 0 0 0 29px;
+    text-align: center;
+}
+.tablebox{
+    width: 800px;
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+th{
+    /* color: #ff5349; */
+    color: #00ffff;
+    margin: 0;
+    padding: 0 60px 20px 100px;
+    text-align: center;
+}
+td,tr{
+    color: #fff;
+    margin: 0;
+    padding: 0 0 20px 30px;
+    text-align: center;
+}
+.adminbox{
+    width: 800px;
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.appointbox{
+    width: 320px;
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.appointbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    width: 80%;
+    background-position:center;
+    margin-bottom: 5px;
+}
+.appointbox button[type="submit"]{
+    border: none;   
+    outline: none;
+    height: 30px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 16px;
+}
+.appointbox button[type="submit"]:hover{
+    cursor:pointer;
+    background: #39e7;
+    color: #000;
+}
